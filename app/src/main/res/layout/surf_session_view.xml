@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.kitetify.me.kitefy.SurfSessionViewActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="@string/SurfSessionInfoText"
+                android:id="@+id/SurfSessionInfoText"
+                android:layout_margin="20dp"
+                android:background="#d1aa2222"
+                android:editable="false"
+                android:textColor="#bdbdbd" />
+
+            <Spinner
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/spinKiteSelect"
+                android:spinnerMode="dropdown"
+                android:prompt="@string/promptBarSelect"
+                android:layout_gravity="center_horizontal"/>
+
+            <Spinner
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/spinBarSelect"
+                android:spinnerMode="dropdown"
+                android:prompt="@string/promptKiteSelect"
+                android:layout_gravity="center_horizontal"/>
+
+
+            <Spinner
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/spinWindDirectionSelect"
+                android:spinnerMode="dropdown"
+                android:prompt="@string/promptWindDirectionSelect"
+                android:layout_gravity="center_horizontal"/>
+
+            <Spinner
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/spinWindCharacterSelect"
+                android:spinnerMode="dropdown"
+                android:prompt="@string/promptWindCharacterSelect"
+                android:layout_gravity="center_horizontal"/>
+
+            <EditText
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:inputType="number"
+                android:id="@+id/inputWindMIN"
+                android:hint="@string/inputWindMIN"
+                android:layout_gravity="center_horizontal"/>
+
+            <EditText
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:inputType="number"
+                android:id="@+id/inputWindAVG"
+                android:hint="@string/inputWindAVG"
+                android:layout_gravity="center_horizontal"/>
+
+            <EditText
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:inputType="number"
+                android:id="@+id/inputWindMAX"
+                android:hint="@string/inputWindMAX"
+                android:layout_gravity="center_horizontal"/>
+
+            <EditText
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/inputSurfSessionDate"
+                android:inputType="datetime"
+                android:hint="@string/inputSurfSessionDate"
+                android:layout_gravity="center_horizontal"/>
+
+            <EditText
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/inputDuration"
+                android:inputType="number"
+                android:hint="@string/inputDuration"
+                android:layout_gravity="center_horizontal"/>
+
+            <EditText
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/inputSpot"
+                android:hint="@string/inputSpot"
+                android:layout_gravity="center_horizontal"/>
+
+            <Spinner
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/spinForecastSelect"
+                android:spinnerMode="dropdown"
+                android:prompt="@string/promptForecastSelect"
+                android:layout_gravity="center_horizontal"
+                />
+
+            <Spinner
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/spinFunSelect"
+                android:spinnerMode="dropdown"
+                android:prompt="@string/promptFunSelect"
+                android:layout_gravity="center_horizontal" />
+
+            <Button
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:paddingTop="16dp"
+                android:text="@string/btnKiteSessionSubmit"
+                android:id="@+id/btnSubmitSession"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"/>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</RelativeLayout>

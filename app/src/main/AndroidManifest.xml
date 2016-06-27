@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.kitetify.me.kitefy">
+
+
+    <application
+
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />12
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity   android:name=".StatisticViewActivity"
+                    android:label="@string/app_name_statistic"
+            />
+        <activity   android:name=".SurfSessionViewActivity"
+                    android:label="@string/app_name_surf_session"
+            />
+        <activity   android:name=".MaterialSelectViewActivity"
+                    android:label="@string/app_name_material"
+            />
+
+        <activity android:name=".Material.NewBarActivity"
+                  android:label="Kitefy - neue Bar" />
+        <activity android:name=".Material.NewKiteActivity"
+            android:label="Kitefy - neue Bar" />
+        <activity android:name=".Material.NewServiceActivity"
+            android:label="Kitefy - neue Bar" />
+        <activity android:name=".Material.NewUtilitiesActivity"
+            android:label="Kitefy - neue Bar" />
+
+        <activity android:name=".Material.UpdateBarActivity"
+            android:label="Kitefy - neue Bar" />
+        <activity android:name=".Material.UpdateKiteActivity"
+            android:label="Kitefy - neue Bar" />
+        <activity android:name=".Material.UpdateServiceActivity"
+            android:label="Kitefy - neue Bar" />
+        <activity android:name=".Material.UpdateUtilitiesActivity"
+            android:label="Kitefy - neue Bar" />
+
+
+        <activity android:name=".Material.DeleteBarActivity"
+            android:label="Kitefy - neue Bar" />
+        <activity android:name=".Material.DeleteKiteActivity"
+            android:label="Kitefy - neue Bar" />
+        <activity android:name=".Material.DeleteServiceActivity"
+            android:label="Kitefy - neue Bar" />
+        <activity android:name=".Material.DeleteUtilitiesActivity"
+            android:label="Kitefy - neue Bar" />
+
+
+
+    </application>
+
+</manifest>

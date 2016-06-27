@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/infoText"
+        android:layout_gravity="center_horizontal"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="15dp"
+        android:layout_alignLeft="@+id/inputSellPrice"
+        android:layout_alignStart="@+id/inputSellPrice" />
+
+    <Spinner
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/spinSelect"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="78dp">
+    </Spinner>
+
+    <EditText
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/inputSellPrice"
+        android:layout_below="@+id/spinSelect"
+        android:hint="Verkaufspreis"
+        android:layout_centerHorizontal="true"
+        android:inputType="number|numberDecimal" />
+
+    <EditText
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/inputSellDate"
+        android:hint="Verkaufsdatum"
+        android:layout_below="@+id/inputSellPrice"
+        android:layout_gravity="center_horizontal"
+        android:layout_centerHorizontal="true"
+        android:inputType="datetime" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/inputSellDate"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Verkauft"
+            android:id="@+id/btnSell"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Löschen"
+            android:id="@+id/btnDelete"
+            android:layout_alignBottom="@+id/button"
+            android:layout_toRightOf="@+id/button"
+            android:layout_toEndOf="@+id/button" />
+    </LinearLayout>
+
+</RelativeLayout>

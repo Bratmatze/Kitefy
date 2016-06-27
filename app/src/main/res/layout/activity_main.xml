@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.kitetify.me.kitefy.MainActivity">
+
+
+    <TextView
+        android:id="@+id/headerText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/headerText"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:id="@+id/sessionMenu"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="Kite-Session"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="34dp" />
+
+    <Button
+        android:id="@+id/statistcMenu"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="Statistik"
+        android:layout_above="@+id/sessionMenu"
+        android:layout_centerHorizontal="true" />
+
+
+    <Button
+        android:id="@+id/materialMenu"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="Materialverwaltung"
+        android:layout_above="@+id/statistcMenu"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="DATABASETEST"
+        android:id="@+id/DatabaseTest"
+        android:layout_above="@+id/materialMenu"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="107dp" />
+
+</RelativeLayout>

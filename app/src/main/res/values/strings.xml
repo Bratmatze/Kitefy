@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name">Kitefy</string>
+    <string name="app_name_surf_session"> Kitefy - Surfsession Formular </string>
+    <string name="app_name_material"> Kitefy - Materialverwaltung </string>
+    <string name="app_name_kite"> Kitefy - Kite </string>
+    <string name="app_name_bar"> Kitefy - Bar </string>
+    <string name="app_name_zubehoer"> Kitefy - Zubehoer </string>
+    <string name="app_name_wartung"> Kitefy - Wartung </string>
+    <string name="app_name_statistic"> Kitefy - Statistiken </string>
+
+    <string name="headerText">Auswahl Menü</string>
+
+    <string name="SurfSessionInfoText">
+        Es wurde noch kein Kite-Material von dir eingetragen.
+        Bitte gehe erst in die Materialverwaltung und trage dein Material ein (mindestens Kite und Bar).
+    </string>
+    <string name="MaterialSelectInfoText">Verwalte dein Kite-Material</string>
+
+
+    <string name="promptKiteSelect">Select your Kite</string>
+    <string name="promptBarSelect">Select your Bar</string>
+    <string name="promptWindDirectionSelect">your Wind Direction</string>
+    <string name="promptWindCharacterSelect">wind character</string>
+    <string name="promptForecastSelect">about Forecast</string>
+    <string name="promptFunSelect">your Fun</string>
+
+    <string name="KiteSessionInfoText">Kitesession</string>
+    <string name="inputWindAVG">WindAVG</string>
+    <string name="inputWindMAX">WindMAX</string>
+    <string name="inputWindMIN">WindMIN</string>
+    <string name="inputSurfSessionDate">Datum</string>
+    <string name="inputSpot">Spot/Ort</string>
+    <string name="inputDuration">Dauer</string>
+    <string name="btnKiteSessionSubmit">KiteSession eintragen</string>
+    <string name="buttonNew">neu</string>
+    <string name="buttonUpdate">bearbeiten</string>
+    <string name="buttonDelete">löschen</string>
+    <string name="utilities">Sonstiges Zubehör</string>
+
+
+</resources>
